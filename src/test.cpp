@@ -58,6 +58,6 @@ int main(void){
 	a->foo();
 	B* b = dynamic_cast<B*>(a);
 	b->fun();
-
+	cout << "dynamic_cast<>" << endl;
 	return 0;
 }
